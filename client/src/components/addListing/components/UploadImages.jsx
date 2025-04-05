@@ -16,13 +16,14 @@ const UploadImages = () => {
         }
     }
 
+    // to remove the image
     const onImageRemove = (image, index) => {
         const result = selectedFileList.filter((item) => item != image);
         setSelectedFileList(result);
     }
 
     const UploadImages=()=>{
-        const fileName=Date.now()+'jpeg';
+        const fileName=Date.now()+'.jpeg';
         const storageRef=ref(storage)   //yahan se shuru hoga 2:48:00
     }
 

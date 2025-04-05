@@ -18,10 +18,6 @@ mongoose.connect(MONGO_URI)
         console.log("MongoDB connection failed: ", error);
     })
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
-
 app.use("/v1", mainRoutes);
 
 const port = 3000;

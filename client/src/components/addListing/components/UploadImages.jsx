@@ -1,4 +1,4 @@
-import { storage } from 'configs/firebaseConfig';
+// import { storage } from 'configs/firebaseConfig';
 import { React, useState } from 'react'
 import { RxCrossCircled } from "react-icons/rx";
 
